@@ -17,7 +17,7 @@ python3 alien_invasion.py
 ### Main feature
 1. Play button
 <h1 align="center">
-<img src="imgs/screenshot1.png" width=100%>
+<img src="images/screenshot1.png" width=100%>
 </h1>
 2. Ship shoots bullets(settings.py sets bullet number to be 3) to hit fleet of aliens.
 3. Level up: After a fleet of aliens has been hitted, the speed of aliens increase. Level is shown in right corner of the screen under score.
@@ -25,5 +25,5 @@ python3 alien_invasion.py
 5. High socre
 6. Ships
 <h1 align="center">
-<img src="imgs/screenshot2.png" width=100%>
+<img src="images/screenshot2.png" width=100%>
 </h1>
