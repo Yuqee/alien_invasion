@@ -1,7 +1,7 @@
 # Alien Invasion
 ## Intrduction
 This project is a learning matrial from the book *Python Crash Course* written by *Eric Matthes*.
-## How to build?
+## How to build
 1. Install pygame
 ```
 python -m pip install --user pygame
@@ -14,7 +14,7 @@ python3 -m pip install --user pygame
 ```
 python3 alien_invasion.py
 ```
-### Main feature
+## Main feature
 1. Play button
 2. Ship shoots bullets(settings.py sets bullet number to be 3) to hit fleet of aliens.
 3. Level up: After a fleet of aliens has been hitted, the speed of aliens increase. Level is shown in right corner of the screen under score.
