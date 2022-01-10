@@ -21,6 +21,7 @@ python3 alien_invasion.py
 4. Score: Score increase every time when an alien has been hit. Level is shown in right corner of the screen under score.
 5. High socre
 6. Ships
+## Screenshots
 <h1 align="center">
 <img src="images/screenshot1.png" width=100%>
 </h1>
