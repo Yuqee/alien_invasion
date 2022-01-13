@@ -1,5 +1,5 @@
 # Alien Invasion
-## Intrduction
+## Introduction
 This project is a learning matrial from the book *Python Crash Course* written by *Eric Matthes*.
 ## How to build
 1. Install pygame
