@@ -31,3 +31,7 @@ python3 alien_invasion.py
 
 ## New features added by me
 1. All-Time High Score
+<h1 align="center">
+<img src="images/screenshot2.png" width=100%>
+</h1>
+Here, the all-time high score is 6950 and current high score is 2550.

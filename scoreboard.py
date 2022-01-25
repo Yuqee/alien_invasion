@@ -91,6 +91,6 @@ class Scoreboard:
         else:
             stored_high_score = 0
         if self.stats.high_score > stored_high_score:
-            open('file.txt', 'w').close()
+            open(file, 'w').close()
             with open(file, 'w') as file_object:
                 file_object.write(str(self.stats.high_score))
