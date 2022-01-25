@@ -88,6 +88,7 @@ class AlienInvasion:
         for event in pygame.event.get():
                 # Quit the game by the default way of closing the window.
                 if event.type == pygame.QUIT:
+                    self.sb.store_high_score()
                     sys.exit()
 
                 elif event.type == pygame.KEYDOWN:
@@ -110,6 +111,7 @@ class AlienInvasion:
             self.ship.moving_left = True
         elif event.key == pygame.K_q:
             # Quit the game by pressing 'Q'.
+            self.sb.store_high_score()
             sys.exit()
         elif event.key == pygame.K_SPACE:
             self._fire_bullet()

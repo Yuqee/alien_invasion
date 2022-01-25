@@ -1,6 +1,7 @@
 import pygame.font
 from pygame.sprite import Group
 from ship import Ship
+import os
 
 class Scoreboard:
     """A class to report socring information."""
@@ -79,3 +80,17 @@ class Scoreboard:
         if self.stats.score > self.stats.high_score:
             self.stats.high_score = self.stats.score
             self.prep_high_score()
+
+    def store_high_score(self):
+        """Store the all time highest score."""
+        file = 'high_score.txt'
+        if os.stat(file).st_size != 0:
+            with open(file) as file_object:
+                contents = file_object.read()
+            stored_high_score = int(contents)
+        else:
+            stored_high_score = 0
+        if self.stats.high_score > stored_high_score:
+            open('file.txt', 'w').close()
+            with open(file, 'w') as file_object:
+                file_object.write(str(self.stats.high_score))

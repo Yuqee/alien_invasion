@@ -1,3 +1,5 @@
+import os
+
 class GameStats:
     """Track statistics for Alien Invasion."""
 
@@ -7,7 +9,13 @@ class GameStats:
         self.reset_stats()
 
         # High score should never be reset.
-        self.high_score = 0 
+        file = 'high_score.txt'
+        if os.stat(file).st_size == 0:
+            self.high_score = 0 
+        else:
+            with open(file) as file_object:
+                contents = file_object.read()
+            self.high_score = int(contents)
         self.level = 1
 
         # Start Alien Invasion in a inactive state.
