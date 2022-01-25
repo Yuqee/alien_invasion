@@ -28,3 +28,5 @@ python3 alien_invasion.py
 <h1 align="center">
 <img src="images/screenshot2.png" width=100%>
 </h1>
+## New features added by me
+1. All-Time High Score
